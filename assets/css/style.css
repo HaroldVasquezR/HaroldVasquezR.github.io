@@ -122,3 +122,89 @@ nav a {
     }
 }
 
+
+/* Teaching page */
+
+.teaching-intro,
+.teaching-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.teaching-intro {
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.teaching-intro h1 {
+    font-size: 48px;
+    margin: 0 0 16px;
+}
+
+.teaching-intro p {
+    font-size: 21px;
+    line-height: 1.6;
+    max-width: 760px;
+}
+
+.teaching-section {
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.teaching-section h2 {
+    font-size: 30px;
+    margin: 0 0 28px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.course-card,
+.laboratory-panel {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 28px;
+}
+
+.course-card h3 {
+    font-size: 23px;
+    margin: 0 0 8px;
+}
+
+.course-subtitle {
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.course-card p,
+.laboratory-panel p {
+    line-height: 1.7;
+}
+
+.course-status {
+    display: inline-block;
+    margin-top: 12px;
+    color: #6b7280;
+    font-size: 14px;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .teaching-intro h1 {
+        font-size: 38px;
+    }
+
+    .teaching-intro {
+        padding-top: 48px;
+    }
+}
