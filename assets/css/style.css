@@ -220,7 +220,7 @@ nav a {
 .course-page .teaching-section > p { max-width: 740px; line-height: 1.75; color: #475467; }
 .course-page .syllabus-link { display: inline-flex; align-items: center; gap: 10px; color: #1f2937; text-decoration: none; font-weight: 600; padding: 12px 0; border-bottom: 1px solid #9ca3af; }
 .course-page .syllabus-link:hover, .course-page .topic-list a:hover, .course-page .back-link:hover { color: #075985; border-color: #075985; }
-.course-page .topic-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--course-line); counter-reset: topic; }
+.course-page .topic-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--course-line); counter-reset: topic -1; }
 .course-page .topic-list li { counter-increment: topic; display: grid; grid-template-columns: 2.5rem minmax(0,1fr); gap: 12px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--course-line); line-height: 1.55; }
 .course-page .topic-list li::before { content: counter(topic, decimal-leading-zero); font-size: .82rem; font-weight: 700; color: #98a2b3; font-variant-numeric: tabular-nums; }
 .course-page .topic-list a { color: #1f2937; text-decoration: underline; text-decoration-color: #cbd5e1; text-underline-offset: 4px; }
