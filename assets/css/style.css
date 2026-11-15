@@ -251,3 +251,28 @@ body.macro-ii .topic-list {
     color: #7c3aed !important;
 }
 
+
+/* Projects — restrained editorial layout, scoped to this page */
+.projects-page { --projects-accent: #7c3aed; --projects-rule: #e5e7eb; --projects-muted: #667085; }
+.projects-page .projects-intro,
+.projects-page .projects-list,
+.projects-page .projects-note { max-width: 960px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; }
+.projects-page .projects-intro { padding-top: 82px; padding-bottom: 44px; }
+.projects-page .projects-eyebrow { color: var(--projects-accent); font-size: .78rem; letter-spacing: .11em; text-transform: uppercase; font-weight: 700; margin: 0 0 18px; }
+.projects-page .projects-intro h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); letter-spacing: -.04em; line-height: 1.1; margin: 0 0 20px; }
+.projects-page .projects-intro > p:last-child { max-width: 720px; font-size: 1.13rem; line-height: 1.75; color: #475467; margin: 0; }
+.projects-page .projects-entry { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 20px; border-top: 1px solid var(--projects-rule); padding: 34px 0 38px; }
+.projects-page .projects-entry:last-child { border-bottom: 1px solid var(--projects-rule); }
+.projects-page .projects-index { font-size: .86rem; font-weight: 700; color: var(--projects-accent); font-variant-numeric: tabular-nums; padding-top: 3px; }
+.projects-page .projects-category { font-size: .76rem; text-transform: uppercase; letter-spacing: .11em; font-weight: 700; color: var(--projects-muted); margin: 0 0 11px; }
+.projects-page .projects-entry h2 { font-size: clamp(1.35rem, 2.6vw, 1.8rem); letter-spacing: -.025em; line-height: 1.25; margin: 0 0 13px; }
+.projects-page .projects-entry-content > p:not(.projects-category) { max-width: 720px; line-height: 1.75; color: #475467; margin: 0 0 14px; }
+.projects-page .projects-entry-content .projects-stage { font-size: .82rem; font-weight: 600; color: #667085; margin-bottom: 0; }
+.projects-page .projects-note { box-sizing: border-box; padding-top: 26px; padding-bottom: 72px; font-size: .82rem; line-height: 1.6; color: var(--projects-muted); }
+.projects-page nav a:hover,
+.projects-page nav a:focus-visible { color: var(--projects-accent); }
+.projects-page a:focus-visible { outline: 2px solid var(--projects-accent); outline-offset: 4px; }
+@media (max-width: 768px) {
+    .projects-page .projects-intro { padding-top: 54px; padding-bottom: 32px; }
+    .projects-page .projects-entry { grid-template-columns: 32px minmax(0, 1fr); gap: 12px; padding: 28px 0 30px; }
+}
