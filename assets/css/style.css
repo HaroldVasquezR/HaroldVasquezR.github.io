@@ -312,3 +312,17 @@ body.macro-ii .topic-list {
 body.projects-page .projects-entry .projects-stage {
     color: #7c3aed !important;
 }
+
+
+/* Projects: compact methods and development status */
+body.projects-page .projects-entry-content .projects-methods {
+    font-size: 0.90rem;
+    line-height: 1.6;
+    color: #667085;
+}
+
+body.projects-page .projects-entry-content .projects-stage {
+    color: #7c3aed;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
