@@ -29,7 +29,7 @@ HaroldVasquezR.github.io/
 ├── index.html
 ├── teaching.html
 ├── projects.html
-├── research.html
+├── research.html 
 ├── teaching/
 └── assets/
     └── css/
