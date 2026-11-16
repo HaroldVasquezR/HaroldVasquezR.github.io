@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Selected research and technology projects by Harold Vásquez in macroeconomics, financial data, AI, and interdisciplinary innovation.">
+    <meta name="description" content="Selected research and technology projects by Harold Vásquez in macroeconomics, financial data infrastructure, AI, and interdisciplinary innovation.">
     <title>Projects | Harold Vásquez</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -16,57 +17,81 @@
             <a href="research.html">Research</a>
         </nav>
     </header>
+
     <main>
         <section class="projects-intro" aria-labelledby="projects-title">
             <p class="projects-eyebrow">Research · Technology · Applied Economics</p>
             <h1 id="projects-title">Selected Projects</h1>
             <p>Research and technology initiatives combining economic modeling, financial data infrastructure, and artificial intelligence. The projects below are at different stages of development.</p>
         </section>
+
         <section class="projects-list" aria-label="Selected projects">
+
+            <!-- Project 01: GDP Nowcasting -->
             <article class="projects-entry">
                 <div class="projects-index" aria-hidden="true">01</div>
                 <div class="projects-entry-content">
                     <p class="projects-category">Macroeconomic research</p>
                     <h2>GDP Nowcasting</h2>
-                    <p>Development of reproducible methods to estimate current economic activity using econometric models and timely indicators, with a focus on applications to the Dominican Republic.</p>
-                    <p class="projects-stage">Research and development</p>
+
+                    <p>Development of an open-source framework for estimating economic activity in the Dominican Republic using timely macroeconomic indicators and reproducible econometric methods. The project aims to integrate data acquisition, preprocessing, model estimation, and forecast evaluation into a transparent computational workflow, supporting regular updates of GDP nowcasts and comparisons across alternative modeling approaches.</p>
+
+                    <p><strong>Methods &amp; Technologies:</strong> R · Time-series econometrics · Macroeconomic indicators · Forecast evaluation · Reproducible research</p>
+
+                    <p class="projects-stage">Development Status: Research and development</p>
                 </div>
             </article>
+
+            <!-- Project 02: Financial & Macroeconomic Data Infrastructure -->
             <article class="projects-entry">
                 <div class="projects-index" aria-hidden="true">02</div>
                 <div class="projects-entry-content">
                     <p class="projects-category">Data infrastructure</p>
                     <h2>Financial &amp; Macroeconomic Data Infrastructure</h2>
-                    <p>Design of a reproducible workflow for accessing, organizing, and analyzing financial-market and macroeconomic data, including native instrument tickers and economic-series identifiers.</p>
-                    <p class="projects-stage">Architecture and implementation planning</p>
+
+                    <p>Development and testing of a modular data infrastructure for retrieving, organizing, and analyzing financial-market and macroeconomic information from multiple sources. Connectivity to financial-market data has been developed and is undergoing testing. Current work includes evaluating market-monitoring indicators and extending reproducible data workflows with standardized instrument tickers, economic-series identifiers, and source-specific connectors.</p>
+
+                    <p><strong>Methods &amp; Technologies:</strong> Financial-market data connectivity · Data pipelines · Market-monitoring indicators (under evaluation) · Economic-series identifiers · OpenBB (planned integration)</p>
+
+                    <p class="projects-stage">Development Status: Testing · Financial-market connectivity developed · Monitoring indicators under evaluation</p>
                 </div>
             </article>
+
+            <!-- Project 03: Economic & Financial Intelligence Agent -->
             <article class="projects-entry">
                 <div class="projects-index" aria-hidden="true">03</div>
                 <div class="projects-entry-content">
                     <p class="projects-category">Artificial intelligence</p>
                     <h2>Economic &amp; Financial Intelligence Agent</h2>
-                    <p>Development of AI-assisted workflows for economic research, financial-market monitoring, and structured intelligence. The underlying server and general-purpose agent environment have been configured; specialized capabilities remain in development.</p>
-                    <p class="projects-stage">Core infrastructure configured · Specialization in development</p>
+
+                    <p>Development of an AI-assisted research environment designed to support economic analysis, financial-market monitoring, and structured information processing. The project combines a self-hosted agent infrastructure with plans for specialized workflows involving data retrieval, research synthesis, and analytical reporting. The general-purpose agent environment has been configured, while domain-specific capabilities for economic and financial intelligence remain under development.</p>
+
+                    <p><strong>Methods &amp; Technologies:</strong> AI agents · Self-hosted VPS · Python (planned integrations) · Research automation · Financial information processing</p>
+
+                    <p class="projects-stage">Development Status: Core infrastructure configured · Specialized capabilities in development</p>
                 </div>
             </article>
+
+            <!-- Project 04: Med-AI -->
             <article class="projects-entry">
                 <div class="projects-index" aria-hidden="true">04</div>
                 <div class="projects-entry-content">
                     <p class="projects-category">Cross-sector innovation</p>
                     <h2>Med-AI</h2>
-                    <p class="project-subtitle">
-                        AI-Powered Medical Assistant &amp; Health Records Management
-                    </p>
-                    <p>
-                        A collaborative project exploring AI-assisted clinical documentation, patient record management, and intelligent
-                        information retrieval to support healthcare professionals.    
-                    </p>
-                    <p class="projects-stage">Collaborative Project &middot; Design Stage</p>
+
+                    <p class="project-subtitle">AI-Powered Medical Assistant &amp; Health Records Management</p>
+
+                    <p>A collaborative project developing an AI-assisted platform for clinical documentation, patient record management, and healthcare information retrieval. The proposed system aims to reduce manual data entry, organize longitudinal patient histories, and assist healthcare professionals in reviewing clinical information. The project also considers conversational AI capabilities that would allow physicians to interact with patient records and supporting documentation.</p>
+
+                    <p><strong>Methods &amp; Technologies:</strong> Artificial intelligence · Clinical documentation · Health records · Document processing · Conversational interfaces</p>
+
+                    <p class="projects-stage">Development Status: Collaborative project · Development stage</p>
                 </div>
             </article>
+
         </section>
-        <p class="projects-note">Projects are presented at different stages of research, design, and development. Additional documentation and resources will be shared as they become available.</p>
+
+        <p class="projects-note">Projects are presented at different stages of research, testing, and development. Additional documentation and resources will be shared as they become available.</p>
     </main>
 </body>
 </html>
